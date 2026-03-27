@@ -20,7 +20,9 @@
 .white {
     color: white;
 }
-
+.red{
+    color: red;
+}
 /* landing page style */
 .landing {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -52,4 +54,23 @@
 .landing .title {
     font-size: 72px;
     text-align: center;
+}
+/* offer page styles */
+.offer{
+    text-align: center;
+}
+.offer .title{
+    font-size: 88px;
+    margin-bottom: 48px;
+    font-weight: bold;
+}
+.offer .subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.offer .description{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
 }
