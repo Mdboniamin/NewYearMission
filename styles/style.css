@@ -26,7 +26,7 @@
 /* landing page style */
 .landing {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-        url(../resources/Banner-Image.png);
+        url(../resources/Banner\ Image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
