@@ -86,7 +86,7 @@
 /* welcome page styles */
 .welcome {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(../resources/Vectorrr.png);
+        url(../resources/Vectorrr.png);
     height: 600px;
     width: 1320px;
     margin: 120px auto;
@@ -96,24 +96,48 @@
     align-items: center;
     justify-content: space-around;
 }
-.welcome .title{
+
+.welcome .title {
     font-size: 64px;
     margin-bottom: 24px;
 }
-.welcome .description{
+
+.welcome .description {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.8);
     max-width: 697px;
     margin-bottom: 48px;
 }
-.welcome img{
+
+.welcome img {
     background-position: right;
 }
-.btn1{
+
+.btn1 {
     font-size: 20px;
     font-weight: bold;
     color: white;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+/* joinnow section styles */
+.joinnow {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    height: 482px;
+    width: 1320px;
+    margin: 0px auto;
+}
+.joinnow span{
+    color:#ff0000;
+}
+.joinnow .description{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
