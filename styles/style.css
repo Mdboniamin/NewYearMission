@@ -12,21 +12,25 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 /* shared styles */
 .white {
     color: white;
 }
-.red{
+
+.red {
     color: red;
 }
+
 /* landing page style */
 .landing {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-        url(../resources/Banner\ Image.png);
+        url(../resources/Banner-Image.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,22 +59,61 @@
     font-size: 72px;
     text-align: center;
 }
+
 /* offer page styles */
-.offer{
+.offer {
     text-align: center;
 }
-.offer .title{
+
+.offer .title {
     font-size: 88px;
     margin-bottom: 48px;
     font-weight: bold;
 }
-.offer .subtitle{
+
+.offer .subtitle {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
-.offer .description{
+
+.offer .description {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 48px;
+}
+
+/* welcome page styles */
+.welcome {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+    height: 600px;
+    width: 1320px;
+    margin: 120px auto;
+    border-radius: 16px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.welcome .title{
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+.welcome .description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 697px;
+    margin-bottom: 48px;
+}
+.welcome img{
+    background-position: right;
+}
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
