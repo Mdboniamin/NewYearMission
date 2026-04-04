@@ -217,14 +217,15 @@
     font-weight: 500;
     margin-bottom: 43px;
 }
-
 /* saleoff section styles */
+.saleoff {
+    margin: 0px auto;
+    margin-bottom: 120px;
+}
 .saleoff .details {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* max-width: 1068px; */
 }
 
 .saleoff .details .subtitle {
@@ -245,40 +246,22 @@
     margin-bottom: 64px;
 }
 
-.saleoff .s-img .bg-red {
-    position: absolute;
-    max-width: 1320px;
-    height: 229px;
-    left: 120px;
-    top: 4358px;
-    background: #FF0000;
-    border-radius: 16px 0px 16px 16px;
+.saleoff .s-img {
+    background: url(../resources/Rectangle-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
 }
+.saleoff .s-img .box{
 
-/* Gift box (left) */
-.saleoff .s-img .box {
-    position: absolute;
-    max-width: 796.46px;
-    height: 662.07px;
-    left: 140px;
-    top: 3925px;
 }
-
-/* Girl (right) */
-.saleoff .s-img .girl {
-    position: absolute;
-    max-width: 429px;
-    height: 433px;
-    left: 1011px;
-    top: 3925px;
-    border-radius: 16px 16px 0px 0px;
+.saleoff .s-img .girlbadge{
+    background: url(../resources/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
 }
-
-/* Discount badge */
-.saleoff .s-img .badge {
-    position: absolute;
-    max-width: 220.05px;
-    height: 220.05px;
-    left: 857.56px;
-    top: 4002px;
+.saleoff .s-img .girlbadge img{
+    max-width: 220px;
+    padding: 77px 276.74px 50.31px 0px;
 }
