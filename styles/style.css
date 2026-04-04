@@ -273,20 +273,24 @@
     max-width: 1320px;
     margin-bottom: 120px;
 }
+
 .bestgift .subtitle {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
-.bestgift .title{
+
+.bestgift .title {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
 }
-.bestgift .description{
+
+.bestgift .description {
     margin-bottom: 48px;
     max-width: 896px;
 }
+
 .bestgift .products {
     display: flex;
     align-items: center;
@@ -294,4 +298,53 @@
     gap: 20px;
     width: 33.%;
     flex-wrap: wrap;
+}
+
+/* newsletter section styles */
+.newsletter {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.newsletter .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.newsletter .description {
+    margin-bottom: 48px;
+    text-align: center;
+}
+.newsletter .input-wrap {
+    display: inline-flex;
+    width: 648px;
+    height: 72px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+
+.newsletter .input-wrap input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 24px;
+    font-size: 18px;
+    color: #999;
+}
+
+.newsletter .input-wrap button {
+    width: 180px;
+    background: #ff0000;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
