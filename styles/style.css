@@ -304,6 +304,7 @@
 .newsletter {
     text-align: center;
     background-color: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
 }
 
 .newsletter img {
@@ -347,4 +348,38 @@
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+footer{
+    background-color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer .top{
+    padding-bottom: 50px;
+    padding: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer hr{
+    margin: 0 auto;
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+footer .icon{
+    padding: 48px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+footer .allright{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
